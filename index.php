@@ -1,11 +1,7 @@
 <?php
-include 'WebServer/Page.php';
-use WebServer\Page;
-
-Page::TopHead("WaterParserBot");
-
+include 'WebServer/MainPage.html';
 #echo "<center>" . "<h1>" . "All go wrong..." . "</h1>" . "</center>";
-echo "<center>" . "<h1>" . "Something goes right." . "</h1>" . "</center>";
+#echo "<center>" . "<h1>" . "Something goes right." . "</h1>" . "</center>";
 
 ini_set('error_reporting', E_ALL);
 
